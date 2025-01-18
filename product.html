@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Paradise Nursery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="cart.html">
+      <img src="images/cart_icon.png" alt="Cart" class="cart-icon">
+    </a>
+  </nav>
+  <main>
+    <section class="product-list">
+      <h2>Aromatic Plants</h2>
+      <div class="product-card">
+        <img src="images/snake_plant.jpg" alt="Snake Plant">
+        <h3>Snake Plant</h3>
+        <p>Produces oxygen at night, improving air quality.</p>
+        <p>$15</p>
+        <button onclick="addToCart('Snake Plant', 15)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/spider_plant.jpg" alt="Spider Plant">
+        <h3>Spider Plant</h3>
+        <p>Filters formaldehyde and xylene from the air.</p>
+        <p>$12</p>
+        <button onclick="addToCart('Spider Plant', 12)">Add to Cart</button>
+      </div>
+    </section>
+    <section class="product-list">
+      <h2>Medicinal Plants</h2>
+      <div class="product-card">
+        <img src="images/peace_lily.jpg" alt="Peace Lily">
+        <h3>Peace Lily</h3>
+        <p>Removes mold spores and purifies the air.</p>
+        <p>$18</p>
+        <button onclick="addToCart('Peace Lily', 18)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/rosemary.jpg" alt="Rosemary">
+        <h3>Rosemary</h3>
+        <p>Enhances memory and concentration.</p>
+        <p>$15</p>
+        <button onclick="addToCart('Rosemary', 15)">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
